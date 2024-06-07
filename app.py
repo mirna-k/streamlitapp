@@ -14,7 +14,7 @@ if st.button('Process Image'):
     if uploaded_image is not None:
         image = Image.open(uploaded_image)
 
-        st.image(image, caption='Uploaded Image.',  width=image.width, height=image.height)
+        st.image(image, caption='Uploaded Image.',  width=image.width)
         
         st.text("Processing the image...")
 
